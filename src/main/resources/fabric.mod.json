@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "rizzline",
+	"version": "1.0",
+	"name": "Shoreline",
+	"authors": ["me"],
+	"environment": "client",
+	"depends": {
+		"minecraft": "~1.21.1"
+	},
+	"entrypoints": {
+		"preLaunch": [
+			"nick.Main"
+		],
+		"main": [
+			"nick.Main"
+		]
+	}
+}
